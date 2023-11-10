@@ -12,7 +12,8 @@
                 justify-content: center;
                 align-items: center;
                 height: 100vh;
-                background:rgb(164, 154, 170);
+                background-image: linear-gradient(to right bottom, rgba(88, 36, 86, 0.705), rgba(114, 83, 108, 0.788), rgb(95, 25, 95));
+            
             }
 
             a {
@@ -20,14 +21,15 @@
             }
 
             #primeiro{
-                margin-bottom: 0;
+                margin-bottom: 30px;
+
             }
 
             .box {
                 font-size: 25px;
                 color: white;
                 height: 250px;
-                width: 350px;
+                width: 400px;
                 border-radius: 10px;
                 background: #191919;
                 flex-direction: column;
@@ -40,18 +42,23 @@
             .buttons-container {
                 display: flex;
                 justify-content: space-around;
-                height: 50px;
+                height: 100px;
                 width: 150px;
 
             }
 
             button{
-                height: 30px;
-                width: 50px;
+                height: 55px;
+                width: 100px;
+
                 background: white;
                 border-radius: 5px;
-                color: rgb(67, 9, 105);
+                color: rgb(73, 12, 114);
                 font-weight: 600;
+                margin-top:5px;
+                margin-right:10px;
+                box-shadow: 5px 5px 5px black;
+            
             }
 
             /* @media only screen and (max-width: 580px){
@@ -69,13 +76,12 @@
     </head>
     <body>
         <div class="box">
-            <p id="primeiro">Desenvolver um sistema</p>
-            <p>entre a gente?</p>
+            <p id="primeiro">Parabéns! Escolha o seu presente:</p>
             <div class="buttons-container">
                 <button>
-                    <a href="https://youtu.be/dQw4w9WgXcQ">Sim</a>
+                    <a href="https://youtu.be/dQw4w9WgXcQ">Apresentação foda irrecusável</a>
                 </button>
-                <button id="no">Não</button>
+                <button id="no">100zão no pix</button>
             </div>
         </div>
     </body>
